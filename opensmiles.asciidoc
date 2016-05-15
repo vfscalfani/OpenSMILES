@@ -1,7 +1,7 @@
 OpenSMILES specification
 ========================
 Craig A. James
-v1.0,2013-09-06: Current specification
+v1.0,2016-05-15: Current specification
 
 http://www.opensmiles.org[www.opensmiles.org]
 
@@ -10,8 +10,7 @@ Copyright &copy; 2007, Craig A. James
 Content is available under http://www.gnu.org/copyleft/fdl.html[GNU Free Documentation License 1.2]
 
 Contributors: Richard Apodaca, Noel O'Boyle, Andrew Dalke, John van Drie, Peter Ertl,
-Geoff Hutchison, Craig A. James, Greg Landrum, Chris Morley, Egon Willighagen, Hans De Winter,
-Tim Vandermeersch
+Geoff Hutchison, Craig A. James, Greg Landrum, Chris Morley, Egon Willighagen, Hans De Winter, Tim Vandermeersch, John May
 
 Introduction
 ------------

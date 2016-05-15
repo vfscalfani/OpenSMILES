@@ -582,33 +582,58 @@ A single, isolated ring that meets the following criteria is aromatic:
 
 * All atoms must be sp^2^ hybridized.
 * The number of available "shared" http://en.wikipedia.org/wiki/Pi_electron[&#960; electrons]
-  must equal 4N+2 where N = 1, 2 or 3 (http://en.wikipedia.org/wiki/H%C3%BCckel's_rule[Huckel's rule]).
+  must equal 4N+2 where N &ge; 0 (http://en.wikipedia.org/wiki/H%C3%BCckel's_rule[Huckel's rule]).
 
 Each element that can participate in an aromatic ring is defined to have the following
 number of &#960; electrons:
 
-[options="header",frame="topbot",grid="rows",width="50%",cols="3,2,2"]
-|==================================================================
-| Configuration                     | &#960; Electrons | Example
-| image:depict/sp2/sp2-c-1.gif[]    | 1                | `c1ccccc1`
-| image:depict/sp2/sp2-c-2.gif[]    | 1                | `c1ccccc1`
-| image:depict/sp2/sp2-c-3.gif[]    | 1                | `c1ccccc1`
-| image:depict/sp2/sp2-c-4.gif[]    | 1                | `c1ccccc1`
-| image:depict/sp2/sp2-c-5.gif[]    | 1                | `c1ccccc1`
-| image:depict/sp2/sp2-cO-1.gif[]   | 0-1              | `c1ccccc1`
-| image:depict/sp2/sp2-cO-2.gif[]   | 0                | `c1ccccc1`
-| image:depict/sp2/sp2-cO-3.gif[]   | 1                | `c1ccccc1`
-| image:depict/sp2/sp2-n-1.gif[]    | 1                | `c1ccccc1`
-| image:depict/sp2/sp2-n-2.gif[]    | 1                | `c1ccccc1`
-| image:depict/sp2/sp2-n-3.gif[]    | 1                | `c1ccccc1`
-| image:depict/sp2/sp2-n-4.gif[]    | 1                | `c1ccccc1`
-| image:depict/sp2/sp2-n-5.gif[]    | 1                | `c1ccccc1`
-| image:depict/sp2/sp2-n-6.gif[]    | 1-2              | `c1ccccc1`
-| image:depict/sp2/sp2-n-7.gif[]    | 1                | `c1ccccc1`
-| image:depict/sp2/sp2-o.gif[]      | 2                | `c1ccccc1`
-| image:depict/sp2/sp2-se.gif[]     | 2                | `c1ccccc1`
-| image:depict/sp2/sp2-s.gif[]      | 2                | `c1ccccc1`
-|==================================================================
+:valign: middle
+:halign: center
+
+[options="header",frame="topbot",grid="rows",width="60%",cols="1,1<,1,<3e"]
+|=======================================================================================================
+| Configuration                       | &#960; Electrons | Example                             | Comment
+|                                     |                  |                                     |
+| image:depict/aromtype/BX3v3n.svg[]  | 0                | image:depict/arom/BX3v3n_ex1.svg[]  | OpenSMILES extension
+| image:depict/aromtype/BX2v3n.svg[]  | 1                | image:depict/arom/BX2v3n_ex1.svg[]  | OpenSMILES extension
+|                                     |                  |                                     |
+| image:depict/aromtype/CX3v3m.svg[]  | 2                | image:depict/arom/CX3v3m_ex1.svg[]  |
+| image:depict/aromtype/CX3v4o.svg[]  | 0                | image:depict/arom/CX3v4o_ex1.svg[]  |
+| image:depict/aromtype/CX3v3p.svg[]  | 0                | image:depict/arom/CX3v3p_ex1.svg[]  |
+| image:depict/aromtype/CX2v3m.svg[]  | 1                | image:depict/arom/CX2v3m_ex1.svg[]  |
+| image:depict/aromtype/CX3v4.svg[]   | 1                | image:depict/arom/CX3v4_ex1.svg[]   |
+| image:depict/aromtype/CX2v3p.svg[]  | 1                | image:depict/arom/CX2v3p_ex1.svg[]  |
+|                                     |                  |                                     |
+| image:depict/aromtype/NX2v2.svg[]   | 2                | image:depict/arom/NX2v2_ex1.svg[]   |
+| image:depict/aromtype/NX3v3.svg[]   | 2                | image:depict/arom/NX3v3_ex1.svg[]   |
+| image:depict/aromtype/NX2v3.svg[]   | 1                | image:depict/arom/NX2v3_ex1.svg[]   |
+| image:depict/aromtype/NX3v4.svg[]   | 1                | image:depict/arom/NX3v4_ex1.svg[]   |
+| image:depict/aromtype/NX3v5.svg[]   | 1                | image:depict/arom/NX3v5_ex1.svg[]   | Non-oxide contributes 2 in Daylight toolkit
+|                                     |                  |                                     |
+| image:depict/aromtype/PX2v2.svg[]   | 2                | image:depict/arom/PX2v2_ex1.svg[]   |
+| image:depict/aromtype/PX3v3.svg[]   | 2                | image:depict/arom/PX3v3_ex1.svg[]   |
+| image:depict/aromtype/PX2v3.svg[]   | 1                | image:depict/arom/PX2v3_ex1.svg[]   |
+| image:depict/aromtype/PX3v4.svg[]   | 1                | image:depict/arom/PX3v4_ex1.svg[]   |
+| image:depict/aromtype/PX3v5.svg[]   | 1                | image:depict/arom/PX3v5_ex1.svg[]   | Non-oxide contributes 2 in Daylight toolkit
+|                                     |                  |                                     |
+| image:depict/aromtype/AsX3v3.svg[]  | 2                | image:depict/arom/AsX3v3_ex1.svg[]  | 
+| image:depict/aromtype/AsX2v3.svg[]  | 1                | image:depict/arom/AsX2v3_ex1.svg[]  | OpenSMILES extension
+| image:depict/aromtype/AsX3v4.svg[]  | 1                | image:depict/arom/AsX3v4_ex1.svg[]  | OpenSMILES extension
+|                                     |                  |                                     |
+| image:depict/aromtype/OX2v2.svg[]   | 2                | image:depict/arom/OX2v2_ex1.svg[]   |
+| image:depict/aromtype/OX2v3.svg[]   | 1                | image:depict/arom/OX2v3_ex1.svg[]   |
+|                                     |                  |                                     |
+| image:depict/aromtype/SX2v2.svg[]   | 2                | image:depict/arom/SX2v2_ex1.svg[]   |
+| image:depict/aromtype/SX2v3.svg[]   | 1                | image:depict/arom/SX2v3_ex1.svg[]   |
+| image:depict/aromtype/SX3v4.svg[]   | 2                | image:depict/arom/SX3v4_ex1.svg[]   | Possibly chiral
+| image:depict/aromtype/SX3v3p.svg[]  | 2                | image:depict/arom/SX3v3p_ex1.svg[]  | Possibly chiral, OpenSMILES extension
+|                                     |                  |                                     |
+| image:depict/aromtype/SeX2v2.svg[]  | 2                | image:depict/arom/SeX2v2_ex1.svg[]  |
+| image:depict/aromtype/SeX2v3.svg[]  | 1                | image:depict/arom/SeX2v3_ex1.svg[]  |
+| image:depict/aromtype/SeX3v4.svg[]  | 2                | image:depict/arom/SeX3v4_ex1.svg[]  | Possibly chiral
+| image:depict/aromtype/SeX3v3p.svg[] | 2                | image:depict/arom/SeX3v3p_ex1.svg[] | Possibly chiral, OpenSMILES extension
+|                                     |                  |                                     |
+|=====================================================================================================
 
 Aromaticity Algorithm
 ^^^^^^^^^^^^^^^^^^^^^

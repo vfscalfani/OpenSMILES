@@ -1,0 +1,43 @@
+*** AX2v2 0,2
+**(*)* AX3v3 0,2
+**(=*) AX2v3 0,1
+**(*)=* AX3v4 0,1
+
+*B(*)* BX3v3n 0
+*B=* BX2v3n 1
+
+*[C-](*)* CX3v3m 2
+*C(=[Het])* CX3v4o 0
+*[C+](*)* CX3v3p 0
+*[C-]=* CX2v3m 1
+*C(=*)* CX3v4 1
+*[C+]=* CX2v3p 1
+
+*[N-]* NX2v2 2
+*N* NX3v3 2
+*N=* NX2v3 1
+*[N+](*)=* NX3v4 1
+*[N+](=*)=* NX3v5 1
+
+*[P-]* PX2v2 2
+*P* PX3v3 2
+*P=* PX2v3 1
+*[P+](*)=* PX3v4 1
+*[P+](=*)=* PX3v5 1
+
+*[As](*)* AsX3v3 2
+*[As+](=*)* AsX3v4 1
+*[As]=* AsX2v3 1
+
+*O* OX2v2 2
+*[O+]=* OX2v3 1
+
+*S* SX2v2 2
+*[S+]=* SX2v3 1
+*S(=O)* SX3v4 2
+*[S+]([O-])* SX3v3p 2 
+
+*[Se]* SeX2v2 2
+*[Se+]=* SeX2v3 1
+*[Se](=O)* SeX3v4 2
+*[Se+]([O-])* SeX3v3p 2 

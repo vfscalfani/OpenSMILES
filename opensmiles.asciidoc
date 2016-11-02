@@ -5,7 +5,7 @@ v1.0,2016-05-15: Current specification
 
 http://www.opensmiles.org[www.opensmiles.org]
 
-Copyright &copy; 2007, Craig A. James
+Copyright &copy; 2007-2016, Craig A. James
 
 Content is available under http://www.gnu.org/copyleft/fdl.html[GNU Free Documentation License 1.2]
 

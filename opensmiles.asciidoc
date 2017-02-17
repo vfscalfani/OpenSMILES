@@ -195,7 +195,7 @@ Hydrogens inside of brackets are specified as `Hn` where `n` is a number such as
 specified without a number, it is identical to `H1`.  For example, `[C]` and
 `[CH0]` are identical, and `[CH]` and `[CH1]` are identical.
 
-Atoms that are specified in brackets with this notation have undefined isotope, no chirality,
+Hydrogens that are specified in brackets with this notation have undefined isotope, no chirality,
 no other bound hydrogen, neutral charge, and an undefined atom class.
 
 Examples:

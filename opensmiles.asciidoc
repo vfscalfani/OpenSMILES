@@ -464,8 +464,8 @@ both bonded atoms, the two bond symbols must be the same.
 [options="header",frame="topbot",grid="rows",width="90%"]
 |=================================================================================================
 | Depiction                                     | SMILES          | Name
-.4+| image:depict/cyclohexane.gif[]             | `C=1CCCCC=1`    | cyclohexene
-|                                                 `C=1CCCCC1`     | cyclohexene *(preferred from)*
+.4+| image:depict/cyclohexene.gif[]             | `C=1CCCCC=1`    | cyclohexene
+|                                                 `C=1CCCCC1`     | cyclohexene *(preferred form)*
 |                                                 `C1CCCCC=1`     | cyclohexene
 |                                                 `C-1CCCCC=1`    | *invalid*
 |=================================================================================================

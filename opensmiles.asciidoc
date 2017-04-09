@@ -46,7 +46,7 @@ become widely accepted as a defacto standard for exchange of molecular structure
 SMILES software packages have been written in `C`, `C++`, `Java`, `Python`, `LISP`, and probably even
 `FORTRAN`.
 
-At this point in the history of SMILES, is appropriate for the chemistry community
+At this point in the history of SMILES, it is appropriate for the chemistry community
 to develop a new, non-proprietary specification for the SMILES language.  Daylight's
 http://www.daylight.com/dayhtml/doc/theory/theory.smiles.html[SMILES Theory Manual]
 has long been the "gold standard" for the SMILES language, but as a
@@ -425,7 +425,7 @@ Branches can be nested or "stacked" to any depth:
 [options="header",frame="topbot",grid="rows",width="90%"]
 |============================================================================================================
 | Depiction                                   | SMILES                      | Name
-| image:depict/2-4-dimethyl-3-pentanone.gif[] | `CC(C)C(=O)C(C)C`           | 2,4-dimethyl-3-penthanone
+| image:depict/2-4-dimethyl-3-pentanone.gif[] | `CC(C)C(=O)C(C)C`           | 2,4-dimethyl-3-pentanone
 | pic here                                    | `OCC(CCC)C(C(C)C)CCC`       | 2-propyl-3-isopropyl-1-propanol
 | image:depict/thiosulfate.gif[]              | `OS(=O)(=S)O`               | thiosulfate
 |============================================================================================================
@@ -479,8 +479,8 @@ has been encountered twice, that number is available again for subsequent ring c
 [options="header",frame="topbot",grid="rows",width="90%",cols="2,2,1,2"]
 |=================================================================================================
 | Depiction                          | SMILES              | Name          | Comment
-.2+| image:depict/dicyclohexyl.gif[] | `C1CCCCC1C1CCCCC1`  | dicyclohexyl  | both SMILES are valid
-|                                      `C1CCCCC1C2CCCCC2`  | dicyclohexyl  |
+.2+| image:depict/dicyclohexyl.gif[] | `C1CCCCC1C1CCCCC1`  | bicyclohexyl  | both SMILES are valid
+|                                      `C1CCCCC1C2CCCCC2`  | bicyclohexyl  |
 |=================================================================================================
 
 
